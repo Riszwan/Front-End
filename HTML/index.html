@@ -1,0 +1,209 @@
+<!-- HTML is not a case sensitive -->
+<!DOCTYPE html>
+<!--DTD Document Type Definition-->
+<html lang="en">
+  <head>
+    <title>Basics Of Html</title>
+    <link
+      rel="icon"
+      href="./Assets/a boy holding a flower.png"
+      type="image/x-icon"
+    />
+    <!--To change a title icon-->
+  </head>
+
+  <body style="background-color: rgb(214, 189, 238)">
+    <!--HEADING TAG (<h1> TO <h6>)-->
+    <h1
+      style="
+        color: #073548;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+      "
+    >
+      <abbr title="People Call Me Rizwan">I'm Rissu</abbr>
+      <!--Abbreviation tag When you hover this it show's the title -->
+    </h1>
+
+    <hr />
+    <!--Horizontal line-->
+
+    <!-- <img> tag-->
+    <!--Absolute url(online link) // Relative url(file url) -->
+    <!-- <img> tag has 3 attribute 1)src 2)height 3)width -->
+    <img
+      src="./Assets/cat.jpeg"
+      alt="My Image"
+      height="300px"
+      width="300px"
+      style="border: 3px solid yellow"
+      title='This is "Persian Cat"'
+    />
+    <!--Border Has 3 values 1)Solid 2)Dotted 3)Dashed-->
+    <!--Title is used to when you palce your mouse into the image it shows what you declared inside the title-->
+
+    <p>I'm a:-<strong>Full-Stack Java Developer</strong></p>
+    <!--When we run this it displays the single line-->
+    <!--But i Need it to be another line ??-->
+
+    <!--We can use 2 <p> tag to display but it occupy some space-->
+    <p>I Love To Coding</p>
+    <br /><!--Break tag-->
+    <p>And <small>I'm Passionate</small> in problem solving</p>
+
+    <!--So We can use <pre> tag to achive this-->
+    <pre>
+       Recent Graduate with
+<mark>BCA</mark> Degree Holder
+    </pre>
+    <!--When we use <pre> tag it displays whats inside in it so use carefully-->
+
+    <b>||Self Learner||</b>
+    <br /><br />
+    <strong>||Passionate Coder||</strong>
+    <!-- Use <b> if bolding is purely visual and not related to importance (e.g., for keywords or headings styled visually bold).
+         Use <strong> if the bold text has critical meaning in the document (e.g., warnings or urgent instructions). -->
+    <br /><br />
+
+    <i>||HTML||</i>
+    <br /><br />
+    <em>||CSS||</em>
+    <!-- Use <i> for pure styling without semantic emphasis, such as italicizing a foreign word or a title.
+         Use <em> to convey meaning or stress on a particular word or phrase in a sentence.-->
+    <br /><br />
+
+    <!--To Link some of your website-->
+    <div>
+      <h3>Follow Me On Instagram</h3>
+      <a
+        href="https://www.instagram.com/_.silent_.lover_.__/?utm_source=ig_web_button_share_sheet"
+        target="_blank"
+      >
+        <img src="./Assets/insta.png" height="40px" />Instagram</a
+      >
+    </div>
+
+    <a href="mailto:rizwanofficial2003@gmail.com">Email-Me</a>
+    <!--mailto: is helps to send email-->
+    <!--href is the attribute of <a> tag-->
+
+    <h4>My Bucket List:-</h4>
+    <!-- <ul> Unordered List  // <ol> Ordered List -->
+    <!-- <li> List Item -->
+    <ol type="i">
+      <li><del>Start Learning Java</del></li>
+      <li><ins>To Get a Job </ins></li>
+      <li>
+        <ins>Need To Do Good Deeds</ins>
+        <ul style="list-style-type: disc">
+          <li>Feed and cloth Poor</li>
+          <li>Eduate People</li>
+          <li>Be Kind</li>
+          <li>Be Patient</li>
+        </ul>
+      </li>
+      <li><ins>Stay Motivated</ins></li>
+    </ol>
+
+    <p>a2+b2+2ab</p>
+    <p>a<sup>2</sup>+b<sup>2</sup>+2ab</p>
+    <!--Supscript-->
+
+    <p>H<sub>2</sub>O</p>
+    <!--Subscript -->
+
+    <q>The best way to predict the future is to create it</q>
+    <!--Quotes-->
+    <br /><br />
+
+    <table width="200px" style="border: 2px dashed black">
+      <caption>
+        Details
+      </caption>
+      <thead style="text-align: left">
+        <!-- <tr> Table Row-->
+        <tr>
+          <!-- <th> Table Header-->
+
+          <th colspan="2" style="width: 50%">Name</th>
+          <!--colsapn occupy column-->
+          <th style="width: 50%">Age</th>
+          <th>Degree</th>
+        </tr>
+      </thead>
+
+      <tbody style="text-align: center">
+        <tr style="height: 50px">
+          <!-- <td> Table Data-->
+          <td>1</td>
+          <td>Rizwan</td>
+          <td rowspan="2">21</td>
+          <!-- rowspan occupy row-->
+          <td rowspan="2">BCA</td>
+        </tr>
+        <tr style="height: 50px">
+          <td>2</td>
+          <td>Akkash</td>
+        </tr>
+        <tr style="height: 50px">
+          <td>3</td>
+          <td>Sarala</td>
+          <td>23</td>
+          <td>MCA</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+
+    <!-- iframe is used to integrate other website into your website-->
+    <!-- In Youtube when click share button it shows emmbeded that is used to achive this-->
+    <iframe
+      width="200"
+      height="200"
+      src="https://www.youtube.com/embed/BzYMFd-lQL4?si=sTsHj9LOECTn2ePN"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <br /><br />
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237684.58518435544!2d39.68173261484776!3d21.43625437081338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c21b4ced818775%3A0x98ab2469cf70c9ce!2sMakkah%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1733049260040!5m2!1sen!2sin"
+      width="250"
+      height="250"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <br /><br />
+
+    <!--Form we already know what form is-->
+    <!--To fill the form [like:-application form,medical form,registration form,etc..]-->
+    
+    
+    <!-- <label> to show the user what the form is about -->
+    <!-- <input> to take input from the user -->
+     <fieldset>
+      <legend>Sign-in</legend>
+    <form action="./website.html">  <!-- action is used to send the data to backend -->
+      <label>Name</label>
+      <input type="text" placeholder="Enter Your Name" required /><br><br>
+      
+      <label>Password</label>
+      <input type="password" placeholder="Enter Your Number" required /><br><br>
+
+      <!--When we use radio use name attribute so we can select only one-->
+
+      <input type="radio" name="gender" /> <label>Male</label>
+      <input type="radio" name="gender" /> <label>Female</label>
+      <input type="reset" value="Reset" />
+      
+      <input type="submit" value="Submit" />
+    
+      
+    </form>
+  </fieldset>
+  </body>
+</html>
