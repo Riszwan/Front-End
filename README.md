@@ -1,19 +1,36 @@
 ---
-#README: Basics of HTML
-Project Description
-This project demonstrates the basics of HTML structure and functionality. 
-It covers various HTML tags, their usage, and basic inline styling. 
-The webpage is designed as a personal profile showcasing different HTML features, 
-such as :-
-★headings, 
-★images, 
-★tables, 
-★lists, 
-★forms, and 
-★embedded content like YouTube videos and Google Maps.
+title: "README: Basics of HTML"
+description: "This project demonstrates the basics of HTML structure and functionality. It covers various HTML tags, their usage, and basic inline styling."
+features:
+  - Headings
+  - Images
+  - Tables
+  - Lists
+  - Forms
+  - Embedded content (YouTube videos, Google Maps)
+layout: default
+tags: ["HTML", "Web Development", "Basics"]
+date: 2024-12-04
+---
+
+# README: Basics of HTML
+
+## Project Description
+This project demonstrates the basics of HTML structure and functionality.  
+It covers various HTML tags, their usage, and basic inline styling.  
+The webpage is designed as a personal profile showcasing different HTML features, such as:
+
+- Headings  
+- Images  
+- Tables  
+- Lists  
+- Forms  
+- Embedded content like YouTube videos and Google Maps  
+
 ---
 
 ## Features Demonstrated
+
 ### 1. **HTML Basics**
 - Proper use of the `<!DOCTYPE html>` declaration and `<html>` tag.
 - Structured layout using `<head>` and `<body>`.
@@ -52,6 +69,7 @@ such as :-
 ---
 
 ## Usage Instructions
+
 1. Save the code as `index.html`.
 2. Ensure all assets (e.g., images, icons) are in the `./Assets/` directory relative to the HTML file.
 3. Open the file in a web browser to view the webpage.
@@ -59,19 +77,10 @@ such as :-
 ---
 
 ## File Structure
-```
+```plaintext
 /Project Root
   |-- index.html
   |-- /Assets
         |-- a boy holding a flower.png
         |-- cat.jpeg
         |-- insta.png
-```
-
----
-
-## Key Notes
-- The project uses inline CSS for simplicity; external CSS can be added for better styling.
-- Ensure proper paths for images and embedded content.
-
----
